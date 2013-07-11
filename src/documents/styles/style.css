@@ -8,6 +8,13 @@ body {
     height: 90px !important;
 }
 
+#Stage{
+    right: 0;
+    z-index:2;
+    margin: -89px -111px 0 0;
+    position: absolute !important;
+}
+
 .logo-link img{
     margin: 18px 0 0 0;
 }
@@ -22,7 +29,9 @@ body {
 
 .slogan{
     padding: 77px 0;
-    background: rgba(0,94,172, 0.7);
+    width: 473px;
+    margin: auto;
+    display: block;
 }
 
 .pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
@@ -52,7 +61,8 @@ body .primary-button {
 }
 
 .splash {
-    margin: 72px auto 0;
+    height: 255px;
+    margin: 109px auto 77px;
     padding: 3em 0.5em;
     background: #005EAC;
 }

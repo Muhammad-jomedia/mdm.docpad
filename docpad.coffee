@@ -12,16 +12,13 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://mdm.br.com"
 
 			# Here are some old site urls that you would like to redirect from
-			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
-			]
+			oldUrls: ['']
 
 			# The default title of our website
-			title: "Your Website"
+			title: "MDM Br"
 
 			# The website description (for SEO)
 			description: """
@@ -34,10 +31,10 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Mass Distribution Media Brazil"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "mike@mdm.cm"
 
 			# Styles
 			styles: [
@@ -47,7 +44,6 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"http://use.typekit.net/ajf8ggy.js"
 				"/scripts/script.js"
 			]
 
