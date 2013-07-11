@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo-link{
@@ -28,10 +29,13 @@ body {
 }
 
 .slogan{
-    padding: 77px 0;
     width: 473px;
     margin: auto;
     display: block;
+    font-size: 25px;
+    padding: 27px 0;
+    line-height: 38px;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
@@ -47,6 +51,14 @@ body {
     .header .pure-menu {
         padding: 0.5em;
     }
+
+        .header .pure-menu a{
+            color: #8EA7BB;
+        }
+
+        .header .pure-menu .pure-menu-selected a, .header .pure-menu a:hover{
+            color: #005EAC !important;
+        }
 
         .header .pure-menu li a:hover,
         .header .pure-menu li a:focus {

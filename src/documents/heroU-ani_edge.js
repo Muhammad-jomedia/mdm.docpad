@@ -6,6 +6,7 @@
 var im='images/';
 
 var fonts = {};
+   fonts['open-sans, sans-serif']='<script src=\"http://use.edgefonts.net/open-sans:n7,i7,n8,i8,i4,n3,i3,n4,n6,i6:all.js\"></script>';
 
 
 var resources = [
@@ -45,7 +46,7 @@ var symbols = {
                rect:['13px','3px','auto','auto','auto','auto'],
                text:"Web Site",
                align:"left",
-               font:['Arial, Helvetica, sans-serif',11,"rgba(235,237,255,1.00)","100","none","italic"]
+               font:['open-sans, sans-serif',11,"rgba(235,237,255,1.00)","100","none","italic"]
             }]
          },
          {
@@ -63,7 +64,7 @@ var symbols = {
                rect:['14px','3px','auto','auto','auto','auto'],
                text:"Web App",
                align:"left",
-               font:['Arial, Helvetica, sans-serif',11,"rgba(235,237,255,1)","100","none","normal"]
+               font:['open-sans, sans-serif',11,"rgba(235,237,255,1)","100","none","normal"]
             }]
          },
          {
@@ -114,10 +115,10 @@ var symbols = {
                {
                   id:'Text',
                   type:'text',
-                  rect:['20px','12px','auto','auto','auto','auto'],
+                  rect:['19px','12px','auto','auto','auto','auto'],
                   text:"Começar Agora",
                   align:"left",
-                  font:['Arial, Helvetica, sans-serif',19,"rgba(0,94,172,1.00)","900","none",""]
+                  font:['open-sans, sans-serif',19,"rgba(5,0,45,1.00)","800","none","normal"]
                }]
             }]
          },
@@ -169,6 +170,7 @@ var symbols = {
          ],
          "${_Text2Copy}": [
             ["style", "top", '3px'],
+            ["style", "font-family", 'open-sans, sans-serif'],
             ["style", "font-style", 'normal'],
             ["color", "color", 'rgba(235,237,255,1.00)'],
             ["style", "font-weight", '100'],
@@ -190,6 +192,7 @@ var symbols = {
          ],
          "${_Text2}": [
             ["style", "top", '3px'],
+            ["style", "font-family", 'open-sans, sans-serif'],
             ["style", "font-style", 'italic'],
             ["color", "color", 'rgba(235,237,255,1.00)'],
             ["style", "font-weight", '100'],
@@ -222,13 +225,15 @@ var symbols = {
             ["style", "width", '233px']
          ],
          "${_Text}": [
+            ["color", "color", 'rgba(5,0,45,1.00)'],
+            ["style", "font-weight", '800'],
+            ["style", "left", '19px'],
+            ["style", "font-size", '19px'],
             ["style", "top", '12px'],
             ["style", "text-align", 'left'],
-            ["style", "font-family", 'Arial, Helvetica, sans-serif'],
-            ["color", "color", 'rgba(0,94,172,1.00)'],
-            ["style", "font-weight", '900'],
-            ["style", "left", '20px'],
-            ["style", "font-size", '19px']
+            ["style", "font-style", 'normal'],
+            ["style", "font-family", 'open-sans, sans-serif'],
+            ["style", "text-decoration", 'none']
          ],
          "${_RoundRect}": [
             ["style", "top", '40px'],
