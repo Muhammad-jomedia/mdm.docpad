@@ -18,7 +18,7 @@ docpadConfig = {
 			oldUrls: ['']
 
 			# The default title of our website
-			title: "MDM Br"
+			title: "MDM Brazil"
 
 			# The website description (for SEO)
 			description: """

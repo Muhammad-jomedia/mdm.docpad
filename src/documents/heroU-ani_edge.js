@@ -23,124 +23,114 @@ var symbols = {
    content: {
          dom: [
          {
-            id:'BG_Rectangle',
+            id:'master',
             type:'rect',
-            rect:['0px','0px','550px','414px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            fill:["rgba(255,255,255,1.00)"],
-            stroke:[3,"rgba(0,94,172,1.00)","solid"],
-            transform:[]
-         },
-         {
-            id:'RoundRect2',
-            type:'rect',
-            rect:['32px','24px','139px','37px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            opacity:1,
-            fill:["rgba(174,178,212,1.00)",[270,[['rgba(174,178,212,1.00)',0],['rgba(202,208,253,1.00)',100]]]],
+            rect:['558px','0px','556px','422px','auto','auto'],
+            overflow:'visible',
+            fill:["rgba(255,255,255,0.00)"],
             stroke:[0,"rgb(0, 0, 0)","none"],
             c:[
             {
-               id:'Text2',
-               type:'text',
-               rect:['13px','3px','auto','auto','auto','auto'],
-               text:"Web Site",
-               align:"left",
-               font:['open-sans, sans-serif',11,"rgba(235,237,255,1.00)","100","none","italic"]
-            }]
-         },
-         {
-            id:'RoundRect2Copy',
-            type:'rect',
-            rect:['173px','24px','139px','37px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            opacity:1,
-            fill:["rgba(174,178,212,1.00)"],
-            stroke:[0,"rgb(0, 0, 0)","none"],
-            c:[
-            {
-               id:'Text2Copy',
-               type:'text',
-               rect:['14px','3px','auto','auto','auto','auto'],
-               text:"Web App",
-               align:"left",
-               font:['open-sans, sans-serif',11,"rgba(235,237,255,1)","100","none","normal"]
-            }]
-         },
-         {
-            id:'RoundRect',
-            type:'rect',
-            rect:['22px','40px','510px','37px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            fill:["rgba(255,255,255,1.00)"],
-            stroke:[1,"rgba(50,119,176,1.00)","solid"],
-            transform:[]
-         },
-         {
-            id:'RoundRect3',
-            type:'rect',
-            rect:['22px','97px','512px','297px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            opacity:0.77,
-            fill:["rgba(192,191,219,1.00)",[270,[['rgba(192,191,219,1.00)',0],['rgba(192,191,219,1.00)',100]]]],
-            stroke:[0,"rgb(0, 0, 0)","none"]
-         },
-         {
-            id:'RoundRect3Copy',
-            type:'rect',
-            rect:['289px','118px','233px','252px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            opacity:1,
-            fill:["rgba(255,255,255,1)"],
-            stroke:[0,"rgb(0, 0, 0)","none"]
-         },
-         {
-            id:'RoundRect3Copy4',
-            type:'rect',
-            rect:['33px','152px','245px','120px','auto','auto'],
-            borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
-            opacity:1,
-            fill:["rgba(0,94,172,1.00)",[270,[['rgba(0,94,172,0.46)',0],['rgba(255,255,255,0.00)',100]]]],
-            stroke:[0,"rgb(0, 0, 0)","none"],
-            c:[
-            {
-               id:'RoundRect4',
+               id:'Web_Site_Tab',
                type:'rect',
-               rect:['27px','38px','188px','45px','auto','auto'],
-               borderRadius:["10px","10px","10px","10px"],
+               rect:['9px','1px','139px','37px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
                opacity:1,
-               fill:["rgba(255,255,255,1.00)"],
-               stroke:[1,"rgb(0, 94, 172)","solid"],
+               fill:["rgba(174,178,212,1.00)",[270,[['rgba(174,178,212,1.00)',0],['rgba(202,208,253,1.00)',100]]]],
+               stroke:[0,"rgb(0, 0, 0)","none"],
                c:[
                {
-                  id:'Text',
+                  id:'Text2',
                   type:'text',
-                  rect:['19px','12px','auto','auto','auto','auto'],
-                  text:"Começar Agora",
+                  rect:['13px','3px','auto','auto','auto','auto'],
+                  text:"Web Site",
                   align:"left",
-                  font:['open-sans, sans-serif',19,"rgba(5,0,45,1.00)","800","none","normal"]
+                  font:['open-sans, sans-serif',11,"rgba(255,255,255,1)","100","none","normal"]
+               },
+               {
+                  id:'EllipseCopy2',
+                  type:'ellipse',
+                  rect:['121px','7px','6px','6px','auto','auto'],
+                  borderRadius:["50%","50%","50%","50%"],
+                  opacity:0.88,
+                  fill:["rgba(207,231,255,1)"],
+                  stroke:[1,"rgba(220,239,255,1.00)","none"],
+                  transform:[]
                }]
+            },
+            {
+               id:'Web_App_Tab',
+               type:'rect',
+               rect:['150px','1px','139px','37px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
+               opacity:1,
+               fill:["rgba(0,94,172,1.00)"],
+               stroke:[2,"rgba(0,94,172,1.00)","none"],
+               c:[
+               {
+                  id:'Text2Copy',
+                  type:'text',
+                  rect:['14px','3px','auto','auto','auto','auto'],
+                  text:"Web App",
+                  align:"left",
+                  font:['open-sans, sans-serif',11,"rgba(255,255,255,1.00)","100","none","normal"]
+               },
+               {
+                  id:'EllipseCopy3',
+                  type:'ellipse',
+                  rect:['121px','7px','6px','6px','auto','auto'],
+                  borderRadius:["50%","50%","50%","50%"],
+                  opacity:1,
+                  fill:["rgba(207,231,255,1.00)"],
+                  stroke:[1,"rgba(220,239,255,1.00)","none"],
+                  transform:[]
+               }]
+            },
+            {
+               id:'BG_Rectangle',
+               type:'rect',
+               rect:['0px','20px','550px','394px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
+               fill:["rgba(255,255,255,1.00)"],
+               stroke:[3,"rgba(0,94,172,1.00)","solid"],
+               transform:[]
+            },
+            {
+               id:'Address_Bar',
+               type:'rect',
+               rect:['2px','21px','550px','24px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","0px","0px"],
+               fill:["rgba(255,255,255,1.00)"],
+               stroke:[1,"rgba(50,119,176,1.00)","solid"],
+               transform:[]
+            },
+            {
+               id:'RoundRect3',
+               type:'rect',
+               rect:['22px','71px','512px','323px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
+               opacity:0.77,
+               fill:["rgba(192,191,219,1.00)",[270,[['rgba(192,191,219,1.00)',0],['rgba(192,191,219,1.00)',100]]]],
+               stroke:[0,"rgb(0, 0, 0)","none"]
+            },
+            {
+               id:'RoundRect3Copy',
+               type:'rect',
+               rect:['auto','92px','486px','278px','34px','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
+               opacity:1,
+               fill:["rgba(255,255,255,1)"],
+               stroke:[0,"rgb(0, 0, 0)","none"]
+            },
+            {
+               id:'RoundRect3Copy2',
+               type:'rect',
+               rect:['33px','127px','245px','207px','auto','auto'],
+               borderRadius:["13px 13px","13px 13px","13px 13px","13px 13px"],
+               opacity:1,
+               fill:["rgba(0,94,172,1.00)",[270,[['rgba(0,94,172,0.46)',0],['rgba(255,255,255,0.00)',100]]]],
+               stroke:[0,"rgb(0, 0, 0)","none"]
             }]
-         },
-         {
-            id:'EllipseCopy2',
-            type:'ellipse',
-            rect:['153px','30px','6px','6px','auto','auto'],
-            borderRadius:["50%","50%","50%","50%"],
-            opacity:0.88,
-            fill:["rgba(207,231,255,1.00)"],
-            stroke:[1,"rgba(220,239,255,1.00)","none"],
-            transform:[]
-         },
-         {
-            id:'EllipseCopy3',
-            type:'ellipse',
-            rect:['294px','30px','6px','6px','auto','auto'],
-            borderRadius:["50%","50%","50%","50%"],
-            opacity:1,
-            fill:["rgba(207,231,255,1.00)"],
-            stroke:[1,"rgba(220,239,255,1.00)","none"],
-            transform:[]
          }],
          symbolInstances: [
 
@@ -148,34 +138,35 @@ var symbols = {
       },
    states: {
       "Base State": {
+         "${_master}": [
+            ["color", "background-color", 'rgba(255,255,255,0.00)'],
+            ["style", "left", '557px']
+         ],
          "${_RoundRect3}": [
-            ["style", "top", '97px'],
-            ["gradient", "background-image", [270,[['rgba(192,191,219,1.00)',0],['rgba(192,191,219,1.00)',100]]]],
             ["color", "background-color", 'rgba(192,191,219,1.00)'],
-            ["style", "height", '297px'],
+            ["style", "top", '71px'],
             ["style", "opacity", '0.77'],
+            ["style", "height", '323px'],
+            ["gradient", "background-image", [270,[['rgba(192,191,219,1.00)',0],['rgba(192,191,219,1.00)',100]]]],
             ["style", "left", '22px'],
             ["style", "width", '512px']
          ],
-         "${_RoundRect2Copy}": [
-            ["style", "top", '24px'],
-            ["style", "left", '173px'],
-            ["color", "background-color", 'rgba(174,178,212,1.00)']
-         ],
-         "${_RoundRect2}": [
-            ["style", "top", '24px'],
-            ["gradient", "background-image", [270,[['rgba(174,178,212,1.00)',0],['rgba(202,208,253,1.00)',100]]]],
-            ["style", "left", '32px'],
-            ["color", "background-color", 'rgba(174,178,212,1.00)']
-         ],
          "${_Text2Copy}": [
             ["style", "top", '3px'],
-            ["style", "font-family", 'open-sans, sans-serif'],
-            ["style", "font-style", 'normal'],
-            ["color", "color", 'rgba(235,237,255,1.00)'],
+            ["color", "color", 'rgba(255,255,255,1.00)'],
             ["style", "font-weight", '100'],
+            ["style", "font-style", 'normal'],
+            ["style", "font-family", 'open-sans, sans-serif'],
             ["style", "left", '14px'],
             ["style", "font-size", '11px']
+         ],
+         "${_RoundRect3Copy}": [
+            ["style", "top", '92px'],
+            ["style", "right", '34px'],
+            ["style", "height", '278px'],
+            ["style", "opacity", '1'],
+            ["style", "left", 'auto'],
+            ["style", "width", '486px']
          ],
          "${_BG_Rectangle}": [
             ["color", "background-color", 'rgba(255,255,255,1.00)'],
@@ -183,91 +174,83 @@ var symbols = {
             ["style", "border-bottom-right-radius", [13,13], {valueTemplate:'@@0@@px @@1@@px'} ],
             ["style", "border-style", 'solid'],
             ["style", "border-top-right-radius", [13,13], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "top", '0px'],
+            ["style", "top", '20px'],
             ["style", "border-bottom-left-radius", [13,13], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "height", '414px'],
+            ["style", "height", '394px'],
             ["color", "border-color", 'rgba(0,94,172,1.00)'],
-            ["style", "border-width", '3px'],
-            ["style", "left", '0px']
+            ["style", "left", '0px'],
+            ["style", "border-width", '3px']
          ],
          "${_Text2}": [
             ["style", "top", '3px'],
-            ["style", "font-family", 'open-sans, sans-serif'],
-            ["style", "font-style", 'italic'],
-            ["color", "color", 'rgba(235,237,255,1.00)'],
+            ["color", "color", 'rgba(255,255,255,1.00)'],
             ["style", "font-weight", '100'],
+            ["style", "font-style", 'normal'],
+            ["style", "font-family", 'open-sans, sans-serif'],
             ["style", "left", '13px'],
             ["style", "font-size", '11px']
          ],
          "${_EllipseCopy3}": [
-            ["color", "background-color", 'rgba(207,231,255,1.00)'],
+            ["style", "top", '7px'],
             ["style", "opacity", '1'],
-            ["color", "border-color", 'rgb(220, 239, 255)'],
-            ["style", "top", '30px'],
-            ["style", "height", '6px'],
+            ["color", "background-color", 'rgba(207,231,255,1.00)'],
             ["style", "border-style", 'none'],
-            ["style", "left", '294px'],
+            ["style", "height", '6px'],
+            ["color", "border-color", 'rgb(220, 239, 255)'],
+            ["style", "left", '121px'],
             ["style", "width", '6px']
          ],
-         "${_RoundRect4}": [
-            ["style", "top", '38px'],
-            ["color", "background-color", 'rgba(255,255,255,1.00)'],
-            ["style", "border-style", 'solid'],
-            ["style", "opacity", '1'],
-            ["style", "border-width", '1px'],
-            ["style", "left", '27px']
-         ],
-         "${_RoundRect3Copy}": [
-            ["style", "top", '118px'],
-            ["style", "height", '252px'],
-            ["style", "opacity", '1'],
-            ["style", "left", '289px'],
-            ["style", "width", '233px']
-         ],
-         "${_Text}": [
-            ["color", "color", 'rgba(5,0,45,1.00)'],
-            ["style", "font-weight", '800'],
-            ["style", "left", '19px'],
-            ["style", "font-size", '19px'],
-            ["style", "top", '12px'],
-            ["style", "text-align", 'left'],
-            ["style", "font-style", 'normal'],
-            ["style", "font-family", 'open-sans, sans-serif'],
-            ["style", "text-decoration", 'none']
-         ],
-         "${_RoundRect}": [
-            ["style", "top", '40px'],
-            ["style", "border-style", 'solid'],
-            ["color", "background-color", 'rgba(255,255,255,1.00)'],
-            ["style", "border-width", '1px'],
-            ["color", "border-color", 'rgba(50,119,176,1.00)'],
-            ["style", "left", '22px'],
-            ["style", "width", '510px']
-         ],
-         "${_RoundRect3Copy4}": [
-            ["style", "top", '152px'],
-            ["gradient", "background-image", [270,[['rgba(0,94,172,0.46)',0],['rgba(255,255,255,0.00)',100]]]],
+         "${_Web_Site_Tab}": [
             ["color", "background-color", 'rgba(0,94,172,1.00)'],
-            ["style", "height", '120px'],
-            ["style", "opacity", '1'],
-            ["style", "left", '33px'],
+            ["style", "border-width", '0px'],
+            ["gradient", "background-image", [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]],
+            ["style", "left", '9px'],
+            ["style", "top", '1px']
+         ],
+         "${_Web_App_Tab}": [
+            ["color", "background-color", 'rgba(0,94,172,1.00)'],
+            ["style", "border-style", 'none'],
+            ["style", "border-width", '2px'],
+            ["color", "border-color", 'rgba(0,94,172,1.00)'],
+            ["style", "left", '150px'],
+            ["style", "top", '1px']
+         ],
+         "${_Address_Bar}": [
+            ["color", "background-color", 'rgba(255,255,255,1.00)'],
+            ["style", "border-top-left-radius", [13,13], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-style", 'solid'],
+            ["style", "border-width", '1px'],
+            ["style", "width", '550px'],
+            ["style", "top", '21px'],
+            ["style", "height", '24px'],
+            ["color", "border-color", 'rgba(50,119,176,1.00)'],
+            ["style", "border-top-right-radius", [13,13], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "left", '2px']
+         ],
+         "${_RoundRect3Copy2}": [
+            ["color", "background-color", 'rgba(0,94,172,1.00)'],
+            ["style", "top", '127px'],
+            ["gradient", "background-image", [270,[['rgba(0,94,172,0.46)',0],['rgba(255,255,255,0.00)',100]]]],
+            ["style", "height", '207px'],
+            ["style", "opacity", '0'],
+            ["style", "left", '-111px'],
             ["style", "width", '245px']
          ],
          "${_EllipseCopy2}": [
             ["color", "background-color", 'rgba(207,231,255,1.00)'],
-            ["style", "border-style", 'none'],
-            ["style", "left", '153px'],
-            ["style", "width", '6px'],
-            ["style", "top", '30px'],
-            ["style", "height", '6px'],
+            ["style", "opacity", '0.88'],
             ["color", "border-color", 'rgba(220,239,255,1.00)'],
-            ["style", "opacity", '0.88']
+            ["style", "top", '7px'],
+            ["style", "height", '6px'],
+            ["style", "border-style", 'none'],
+            ["style", "left", '121px'],
+            ["style", "width", '6px']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,255,255,0.00)'],
-            ["style", "overflow", 'hidden'],
+            ["style", "width", '556px'],
             ["style", "height", '422px'],
-            ["style", "width", '556px']
+            ["style", "overflow", 'hidden']
          ]
       }
    },
@@ -275,10 +258,16 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 0,
+         duration: 1250,
          autoPlay: true,
          timeline: [
-         ]
+            { id: "eid37", tween: [ "style", "${_RoundRect3Copy2}", "left", '33px', { fromValue: '-111px'}], position: 1077, duration: 173, easing: "swing" },
+            { id: "eid18", tween: [ "style", "${_RoundRect3Copy}", "width", '486px', { fromValue: '486px'}], position: 0, duration: 0, easing: "swing" },
+            { id: "eid27", tween: [ "style", "${_RoundRect3Copy}", "width", '233px', { fromValue: '486px'}], position: 1077, duration: 173, easing: "swing" },
+            { id: "eid17", tween: [ "color", "${_Web_Site_Tab}", "background-color", 'rgba(174,178,212,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,94,172,1.00)'}], position: 1077, duration: 73, easing: "swing" },
+            { id: "eid31", tween: [ "style", "${_RoundRect3Copy2}", "opacity", '1', { fromValue: '0'}], position: 1077, duration: 173, easing: "swing" },
+            { id: "eid6", tween: [ "style", "${_master}", "left", '0px', { fromValue: '557px'}], position: 0, duration: 1077, easing: "swing" },
+            { id: "eid16", tween: [ "gradient", "${_Web_Site_Tab}", "background-image", [270,[['rgba(174,178,212,1.00)',0],['rgba(202,208,253,1.00)',100]]], { fromValue: [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]}], position: 1077, duration: 73, easing: "swing" }         ]
       }
    }
 }
