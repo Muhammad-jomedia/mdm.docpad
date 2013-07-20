@@ -16,8 +16,12 @@ body {
     position: absolute !important;
 }
 
-    .Stage_Text2_id, .Stage_Text2Copy_id{
+    .Stage_Text2_id, #Stage_webAppTab_Text2Copy{
         top:-2px !important;
+    }
+
+    #Stage_website_urlText, #Stage_app_urlText{
+        top:3px !important;
     }
 
 .logo-link{
@@ -50,9 +54,54 @@ body {
     line-height: 38px;
 }
 
+    .slogan .pure-button{
+        padding: .5em 2em;
+    }
+
     .slogan h2{
         font-weight: 200;
+        margin-bottom: 20px;
     }
+
+#appBtnIcon{
+    position: absolute;
+    margin: 4px 0 0 -24px;
+    width: 30px;
+    height: 30px;
+    background-size: 114%;
+    background-color: #005EAC;
+    -webkit-background-size: 114%;
+    background-image: url(/icons/iconmonstr-window-apps-icon.svg);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+    display: block;
+    clear: none;
+}
+
+#mblBtnIcon{
+    position: absolute;
+    margin: 4px 0 0 -24px;
+    width: 30px;
+    height: 30px;
+    background-size: 115%;
+    background-color: #005EAC;
+    -webkit-background-size: 115%;
+    background-image: url(/icons/iconmonstr-mobile-phone-5-icon.svg);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+    display: block;
+    clear: none;
+}
+
+#appBtnText{
+    color:rgb(10, 40, 158);
+}
+
+#appBtnText, #appMblText{
+    margin: 0 -18px 0 14px;
+}
 
 .pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
 .pure-menu-fixed{left:auto;}
@@ -133,7 +182,7 @@ body .primary-button {
     }
 
     .content .content-ribbon {
-        margin: 3em;
+        margin: 3em 0;
         border-bottom: 1px solid rgba(0, 94, 172, 0.19);
     }
 
