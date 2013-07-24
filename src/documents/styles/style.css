@@ -56,6 +56,7 @@ body {
 
     .slogan .pure-button{
         padding: .5em 2em;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
 
     .slogan h2{
@@ -63,36 +64,30 @@ body {
         margin-bottom: 20px;
     }
 
-#appBtnIcon{
+.splash-btn-icon{
     position: absolute;
     margin: 4px 0 0 -24px;
     width: 30px;
     height: 30px;
-    background-size: 114%;
     background-color: #005EAC;
-    -webkit-background-size: 114%;
-    background-image: url(/icons/iconmonstr-window-apps-icon.svg);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     background-position: 0px 0px;
     background-repeat:no-repeat;
     display: block;
     clear: none;
+    box-shadow: -1px -1px rgba(0,0,0,0.1);
+}
+
+#appBtnIcon{
+    background-size: 114%;
+    -webkit-background-size: 114%;
+    background-image: url(/icons/iconmonstr-window-apps-icon.svg);
 }
 
 #mblBtnIcon{
-    position: absolute;
-    margin: 4px 0 0 -24px;
-    width: 30px;
-    height: 30px;
     background-size: 115%;
-    background-color: #005EAC;
     -webkit-background-size: 115%;
     background-image: url(/icons/iconmonstr-mobile-phone-5-icon.svg);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background-position: 0px 0px;
-    background-repeat:no-repeat;
-    display: block;
-    clear: none;
 }
 
 #appBtnText{
@@ -126,11 +121,21 @@ body {
             color: #005EAC !important;
         }
 
+        .header .pure-menu li{
+            border-radius: 3px;
+            border: 1px solid rgba(0, 94, 172, 0.07);
+        }
+
         .header .pure-menu li a:hover,
         .header .pure-menu li a:focus {
             background: none;
-            border: none;
             color: #aaa;
+            border: 1px solid rgba(0, 94, 172, 1);
+        }
+
+        .header .pure-menu li a:active{
+            color: #000 !important;
+            border: 1px solid rgba(0, 0, 0, 1);
         }
 
 body .primary-button {
@@ -140,9 +145,10 @@ body .primary-button {
 
 .splash {
     height: 251px;
-    margin: 109px auto 77px;
     padding: 3em 0.5em;
+    border-radius: 13px;
     background: #005EAC;
+    margin: 109px auto 77px;
 }
     .splash .splash-head {
         font-size: 300%;
@@ -183,8 +189,24 @@ body .primary-button {
 
     .content .content-ribbon {
         margin: 3em 0;
-        border-bottom: 1px solid rgba(0, 94, 172, 0.19);
+        border: 3px solid rgba(0, 94, 172, 1);
+        border-radius: 13px;
     }
+
+.node-home-capsule{
+    height: 229px;
+    background: #005EAC;
+    margin: auto;
+    display: block;
+    float: left;
+    width: 327px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.node-home-img{
+    margin: 56px auto;
+}
 
 .ribbon {
     background: #eee;
@@ -197,10 +219,17 @@ body .primary-button {
         font-weight: normal;
     }
 
+    .footer-ribbon{
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+
 .footer {
     background: #005EAC;
     color: #fff;
     text-align: center;
     padding: 1em;
     font-size: 80%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
