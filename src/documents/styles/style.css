@@ -43,7 +43,7 @@ body {
 }
 
 .white-font{
-    color: #fff;
+    color: #fff !important;
 }
 
 .slogan{
@@ -179,12 +179,13 @@ body .primary-button {
 }
 
     .content .content-subhead {
-        color: #999;
-        padding-bottom: 0.3em;
+        color: #444;
+        padding: 0.4em .8em 0.2em;
         text-transform: uppercase;
-        margin: 0;
-        border-bottom: 2px solid #eee;
-        display: inline-block;
+        margin: 8px 0 0 0px;
+        border-bottom: 1px solid #005EAC;
+        display: block;
+        width: 665px;
     }
 
     .content .content-ribbon {
@@ -193,8 +194,25 @@ body .primary-button {
         border-radius: 13px;
     }
 
+.pira-home-cap{
+    border-right: 2px solid rgb(0, 94, 172);
+    border-top-right-radius: 13px;
+    border-top: 2px solid rgb(0, 94, 172);
+    background: #fff;
+    border-bottom-left-radius: 25px;
+    box-shadow: 1px -1px rgba(0, 39, 71, 0.1);
+}
+
+.pira-rib{
+    background: #005EAC;
+}
+
+.pira-logo{
+    margin: 35px 0 0 13px;
+}
+
 .node-home-capsule{
-    height: 229px;
+    height: 240px;
     background: #005EAC;
     margin: auto;
     display: block;
@@ -205,7 +223,11 @@ body .primary-button {
 }
 
 .node-home-img{
-    margin: 56px auto;
+    margin: 66px auto;
+}
+
+.docpad-logo{
+    width:14%;
 }
 
 .ribbon {
