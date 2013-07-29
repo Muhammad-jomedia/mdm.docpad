@@ -34,6 +34,12 @@ body {
         border-radius: 66px; */
     }
 
+.four-boxes{
+    border: 3px solid rgba(0,94,172,1);
+    border-radius: 13px;
+    margin-bottom: 49px;
+}
+
 .text-center{
     text-align: center;
 }
