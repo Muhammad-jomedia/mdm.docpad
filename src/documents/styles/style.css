@@ -5,6 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.muted{
+    opacity: 0.7;
+}
+
 .logo-link{
     margin:-22px 0 !important;
     height: 90px !important;

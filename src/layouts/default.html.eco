@@ -23,10 +23,6 @@
 
 	<!-- Icons -->
     <link rel="shortcut icon" href="icons/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57-precomposed.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -36,10 +32,6 @@
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 	
-	<!-- Typekit ajf8ggy.js -->
-	<script>
-    try { Typekit.load(); } catch (e) {}
-	</script>
 </head>
 <body>
 
@@ -64,8 +56,8 @@
 	<%- @content %>
 
 	<div class="footer pure-u-1"> 
-		&copy;<%- (new Date()).getFullYear() %> MDM Brazil.
-		atualizado <%= @site.date.toISOString() %>
+		&copy;<%- (new Date()).getFullYear() %> Mass Distribution Media Inc.
+		<span class="muted"> Last updated <%= @site.date.toISOString() %></span>
 	</div>
 </div>
 
