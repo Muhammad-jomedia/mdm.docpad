@@ -50,6 +50,14 @@
 					</li>
 				<% end %>
 			</ul>
+			<li class="we-bitcoin">
+				<span class="accept-li">
+					<sub class="accept-b muted">We accept bitcoins.</sub>
+				</span>
+				<span class="bitcoin">
+					<%- @getBitcoinSvgBlock('bflat','bIcon','bitcoin-icon') %>
+				</span>
+			</li>
 		</div>
 	</div>
 

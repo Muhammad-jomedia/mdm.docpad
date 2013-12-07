@@ -185,7 +185,29 @@ body .primary-button {
 .node-box{
     height: 240px;
 }
-
+.accept-li{
+    border: none !important;
+}
+.accept-b{
+    margin: 0 0 0 29%;
+}
+.we-bitcoin{
+    cursor: pointer;
+    width:577px;
+    border: none !important;
+    text-align: right;
+}
+.bitcoin{
+    width: 113px;
+    height: 113px;
+    border: none !important;
+    opacity: 0.333;
+    margin: -1px 0 0 13px;
+    position: absolute;
+ }
+    .bitcoin:hover{
+        opacity: 1;
+    }
 .content{
     max-width: 1080px;
     margin: 0 auto;
