@@ -192,22 +192,27 @@ body .primary-button {
     margin: 0 0 0 29%;
 }
 .we-bitcoin{
-    cursor: pointer;
     width:577px;
-    border: none !important;
+    opacity: 0.555;
+    cursor: pointer;
     text-align: right;
-}
-.bitcoin{
-    width: 113px;
-    height: 113px;
     border: none !important;
-    opacity: 0.333;
-    margin: -1px 0 0 13px;
-    position: absolute;
- }
-    .bitcoin:hover{
+}
+    .we-bitcoin:hover{
         opacity: 1;
     }
+    .bitcoin{
+        width: 45px;
+        border: none !important;
+        margin: -8px 0 0 10px;
+        position: absolute;
+     }
+        .bitcoin-icon{
+            height: 44px;
+            fill: #F69219;
+        }
+
+
 .content{
     max-width: 1080px;
     margin: 0 auto;
@@ -265,6 +270,14 @@ body .primary-button {
 .docpad-logo{
     width:14%;
 }
+    .docpad-logo-white{
+        height: 59px;
+        width: 249px;
+        margin: 0 0 -9px 0;
+    }
+    .docpad-subhead{
+       padding: 0.4em .8em 0.6em !important;
+    }
 
 .ribbon {
     background: #eee;
