@@ -14,12 +14,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2250, function(sym, e) {
-         // insert code here
+         // stop the timeline at the given position (ms or label)
+         sym.stop("finale");
+
       });
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
-         Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
+         Symbol.bindSymbolAction(stageTwo, keys, "creationComplete", function(sym, e) {
               // insert code to be run when the symbol is created here
               console.log('Start');
          
@@ -51,5 +53,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("stage");
    //Edge symbol end:'stage'
+
+   //=========================================================
+   
+   //Edge symbol: 'keys'
+   (function(symbolName) {   
+   
+   })("keys");
+   //Edge symbol end:'keys'
 
 })(jQuery, AdobeEdge, "docpad-keys-animation");
