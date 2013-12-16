@@ -4,22 +4,30 @@ body {
     line-height: 1.7em;
     font-family: 'Open Sans', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 
 .muted{
     opacity: 0.7;
 }
 
 .logo-link{
-    margin:-22px 0 !important;
+    margin:-22px 13px -22px -30px !important;
     height: 90px !important;
+    padding: 5px 12px !important;
 }
+    .logo-link img{
+        margin: 18px 0 0 0;
+        /* background: #fff;
+        border-radius: 66px; */
+    }
 
-#Stage{
+#stageOne{
     z-index:2;
     margin: -94px -111px 0 630px;
     position: absolute !important;
 }
-
     .Stage_Text2_id, #Stage_webAppTab_Text2Copy{
         top:-2px !important;
     }
@@ -27,15 +35,8 @@ body {
     #Stage_website_urlText, #Stage_app_urlText{
         top:3px !important;
     }
-
-.logo-link{
-    padding: 5px 12px !important;
-}
-
-    .logo-link img{
-        margin: 18px 0 0 0;
-        /* background: #fff;
-        border-radius: 66px; */
+    #stageTwo{
+        margin: -25px 0 0 -3px;
     }
 
 .four-boxes{
@@ -116,7 +117,7 @@ body {
 }
 
 .header {
-    margin: 0 0;
+    text-align: center;
 }
 
     .header .pure-menu {
@@ -182,9 +183,6 @@ body .primary-button {
     z-index: 1;
 }
 
-.node-box{
-    height: 240px;
-}
 .accept-li{
     border: none !important;
 }
@@ -231,8 +229,9 @@ body .primary-button {
 
     .content .content-ribbon {
         margin: 3em 0;
-        border: 3px solid rgba(0, 94, 172, 1);
         border-radius: 13px;
+        background: rgba(0, 94, 172, 1);
+        border: 3px solid rgba(0, 94, 172, 1);
     }
 
 .pira-home-cap{
@@ -262,10 +261,16 @@ body .primary-button {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-
-.node-home-img{
-    margin: 66px auto;
-}
+    .node-box{
+        height: 240px;
+        width: 707px;
+        background: #fff;
+        border-radius: 21px;
+        box-shadow: -4px 1px rgba(0, 39, 71, 0.1);
+    }
+    .node-home-img{
+        margin: 66px auto;
+    }
 
 .docpad-logo{
     width:14%;
@@ -277,6 +282,9 @@ body .primary-button {
     }
     .docpad-subhead{
        padding: 0.4em .8em 0.6em !important;
+    }
+    #stageTwo_docpad-key-bottom{
+        fill:#fff;
     }
 
 .ribbon {
