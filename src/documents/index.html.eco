@@ -11,8 +11,7 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
 
     <script type="text/javascript" charset="utf-8" src="/heroU-ani_edgePreload.js"></script>
     <style>
-        .edgeLoad-EDGE-26053714 { visibility:hidden; }
-        .edgeLoad-EDGE-29810419 { visibility:hidden; }
+        .edgeLoad-EDGE-26053714, .edgeLoad-EDGE-29810419 { visibility:hidden; }
     </style>
 
 <!-- Main hero unit for a primary marketing message or call to action -->
@@ -43,8 +42,9 @@ id="star-icon" points="256,60.082 304.63,209.75 462,209.75 334.686,302.25 383.31
                 <span> Partners </span>
                 </h4>
                 <div class="l-box pira-home-cap">
-                    <h3>Mestres Storytelling Criativas</h3>
+                    <h3>A modern prototyping platform</h3>
                     <p>
+                        DocPad, created by Bevry and open-source on GitHub, is a node.js powered web prototyping platform allowing for quick websites and web apps to be live in days instead of months. DocPad is flexible. Use PHP, Ruby or Node. 
                         Pellentesque hendrerit lobortis ornare. Fusce luctus imperdiet consequat. Nullam quis nunc quis ligula luctus vestibulum non quis libero. Suspendisse tristique nisl ut velit facilisis sit amet lobortis nulla pharetra.
                     </p>
                 </div>

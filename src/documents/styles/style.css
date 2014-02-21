@@ -39,6 +39,10 @@ a{
         margin: -25px 0 0 -3px;
     }
 
+.pira-rib{
+    height: 248px;
+}
+
 .four-boxes{
     border: 3px solid rgba(0,94,172,1);
     border-radius: 13px;
