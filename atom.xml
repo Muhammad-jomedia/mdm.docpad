@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Mass Distribution Media</title>
+	<link href="http://mdm.cc/atom.xml" rel="self"/>
+	<link href="http://mdm.cc"/>
+	<updated>2014-06-09T00:52:07.133Z</updated>
+	<id>http://mdm.cc</id>
+	<author>
+		<name>Mass Distribution Media</name>
+		<email>mike@mdm.cm</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://mdm.cc//posts/bye"/>
+			<updated>2014-01-15T02:00:05.000Z</updated>
+			<id>http://mdm.cc//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | Mass Distribution Media&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;MDM, Mass Distribution Media, docpad &quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mass Distribution Media&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.2.0/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Julius+Sans+One&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;header pure-u-1&quot;&gt;
+	&lt;div id=&quot;main-menu&quot; class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+		&lt;a class=&quot;pure-menu-heading logo-link&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png&quot; alt=&quot;MDM Brazil blue icon logo&quot;/&gt;&lt;/a&gt;
+
+		&lt;ul&gt;
+			&lt;!-- &lt;li class=&quot;pure-menu-selected&quot;&gt;&lt;a href=&quot;/&quot;&gt;Casa&lt;/a&gt;&lt;/li&gt; --&gt;
+			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tour&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;&quot;&gt;
+					&lt;a href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+				&lt;/li&gt;
+			
+				&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+					&lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+				&lt;/li&gt;
+			
+		&lt;/ul&gt;
+		&lt;li class=&quot;we-bitcoin&quot;&gt;
+			&lt;span class=&quot;accept-li&quot;&gt;
+				&lt;sub class=&quot;accept-b muted&quot;&gt;We accept bitcoin.&lt;/sub&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;bitcoin&quot;&gt;
+				&lt;!-- bitcoinsvg START --&gt;&lt;svg id=&quot;bIcon&quot; class=&quot;bitcoin-icon&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 512 512&quot; enable-background=&quot;new 0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;&lt;path id=&quot;bitcoin-3-icon&quot; d=&quot;M303.676,288.54c0.009,21.928-35.308,21.322-56.823,21.322v-42.83C269.305,266.588,303.678,265.976,303.676,288.54z M293.368,219.691c-0.004-19.853-26.271-19.264-46.516-19.264v38.496C266.388,238.924,293.362,238.786,293.368,219.691z M462,256c0,113.771-92.229,206-206,206c-113.771,0-206-92.229-206-206c0-113.771,92.229-206,206-206C369.771,50,462,142.229,462,256z M325.791,246.124c21.38-15.314,30.066-69.421-39.068-76.551l-0.001-33.691h-28l0.002,32.704h-11.871v-32.704h-27.979l-0.01,32.704h-44.683l0.007,30.29l20.762-0.012c6.792,0.002,8.082,3.2,8.082,7.379v95.678c0,5.319-2.575,7.923-8.325,7.923h-15.673l-5.368,32.43h45.204l0.009,33.845h27.975v-33.845h11.871l-0.01,33.845h28.001v-33.954C371.416,336.352,366.889,260.333,325.791,246.124z&quot;/&gt;&lt;/svg&gt;&lt;!-- bitcoinsvg END --&gt;
+			&lt;/span&gt;
+		&lt;/li&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+	&lt;div class=&quot;footer pure-u-1&quot;&gt; 
+		&amp;copy;2014 Mass Distribution Media Inc.
+		&lt;span class=&quot;muted&quot;&gt; Last updated 2014-06-09T00:52:07.133Z&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://mdm.cc//posts/hello"/>
+			<updated>2014-01-15T02:00:05.000Z</updated>
+			<id>http://mdm.cc//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | Mass Distribution Media&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;MDM, Mass Distribution Media, docpad &quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mass Distribution Media&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.68.1&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.2.0/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Julius+Sans+One&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;header pure-u-1&quot;&gt;
+	&lt;div id=&quot;main-menu&quot; class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+		&lt;a class=&quot;pure-menu-heading logo-link&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png&quot; alt=&quot;MDM Brazil blue icon logo&quot;/&gt;&lt;/a&gt;
+
+		&lt;ul&gt;
+			&lt;!-- &lt;li class=&quot;pure-menu-selected&quot;&gt;&lt;a href=&quot;/&quot;&gt;Casa&lt;/a&gt;&lt;/li&gt; --&gt;
+			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tour&lt;/a&gt;&lt;/li&gt;
+			
+				&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;&quot;&gt;
+					&lt;a href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+				&lt;/li&gt;
+			
+				&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+					&lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+				&lt;/li&gt;
+			
+		&lt;/ul&gt;
+		&lt;li class=&quot;we-bitcoin&quot;&gt;
+			&lt;span class=&quot;accept-li&quot;&gt;
+				&lt;sub class=&quot;accept-b muted&quot;&gt;We accept bitcoin.&lt;/sub&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;bitcoin&quot;&gt;
+				&lt;!-- bitcoinsvg START --&gt;&lt;svg id=&quot;bIcon&quot; class=&quot;bitcoin-icon&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 512 512&quot; enable-background=&quot;new 0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt;&lt;path id=&quot;bitcoin-3-icon&quot; d=&quot;M303.676,288.54c0.009,21.928-35.308,21.322-56.823,21.322v-42.83C269.305,266.588,303.678,265.976,303.676,288.54z M293.368,219.691c-0.004-19.853-26.271-19.264-46.516-19.264v38.496C266.388,238.924,293.362,238.786,293.368,219.691z M462,256c0,113.771-92.229,206-206,206c-113.771,0-206-92.229-206-206c0-113.771,92.229-206,206-206C369.771,50,462,142.229,462,256z M325.791,246.124c21.38-15.314,30.066-69.421-39.068-76.551l-0.001-33.691h-28l0.002,32.704h-11.871v-32.704h-27.979l-0.01,32.704h-44.683l0.007,30.29l20.762-0.012c6.792,0.002,8.082,3.2,8.082,7.379v95.678c0,5.319-2.575,7.923-8.325,7.923h-15.673l-5.368,32.43h45.204l0.009,33.845h27.975v-33.845h11.871l-0.01,33.845h28.001v-33.954C371.416,336.352,366.889,260.333,325.791,246.124z&quot;/&gt;&lt;/svg&gt;&lt;!-- bitcoinsvg END --&gt;
+			&lt;/span&gt;
+		&lt;/li&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+	&lt;div class=&quot;footer pure-u-1&quot;&gt; 
+		&amp;copy;2014 Mass Distribution Media Inc.
+		&lt;span class=&quot;muted&quot;&gt; Last updated 2014-06-09T00:52:07.133Z&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>

@@ -1,0 +1,321 @@
+body {
+    margin: 0 auto;
+    overflow-x:hidden;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.muted{
+    opacity: 0.7;
+}
+
+.logo-link{
+    margin:-22px 13px -22px -30px !important;
+    height: 90px !important;
+    padding: 5px 12px !important;
+}
+    .logo-link img{
+        margin: 18px 0 0 0;
+        /* background: #fff;
+        border-radius: 66px; */
+    }
+
+#stageOne{
+    z-index:2;
+    margin: -94px -111px 0 630px;
+    position: absolute !important;
+}
+    .Stage_Text2_id, #Stage_webAppTab_Text2Copy{
+        top:-2px !important;
+    }
+
+    #Stage_website_urlText, #Stage_app_urlText{
+        top:3px !important;
+    }
+    #stageTwo{
+        margin: -25px 0 0 -3px;
+    }
+
+.pira-rib{
+    height: 248px;
+}
+
+.four-boxes{
+    border: 3px solid rgba(0,94,172,1);
+    border-radius: 13px;
+    margin-bottom: 49px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.white-font{
+    color: #fff !important;
+}
+
+.slogan{
+    width: 448px;
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+    .slogan .pure-button{
+        padding: .5em 2em;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .slogan h2{
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+
+.splash-btn-icon{
+    position: absolute;
+    margin: 4px 0 0 -24px;
+    width: 30px;
+    height: 30px;
+    background-color: #005EAC;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+    display: block;
+    clear: none;
+    box-shadow: -1px -1px rgba(0,0,0,0.1);
+}
+
+#appBtnIcon{
+    background-size: 114%;
+    -webkit-background-size: 114%;
+    background-image: url(/icons/iconmonstr-window-apps-icon.svg);
+}
+
+#mblBtnIcon{
+    background-size: 115%;
+    -webkit-background-size: 115%;
+    background-image: url(/icons/iconmonstr-mobile-phone-5-icon.svg);
+}
+
+#appBtnText{
+    color:rgb(10, 40, 158);
+}
+
+#appBtnText, #appMblText{
+    margin: 0 -18px 0 14px;
+}
+#main-menu{ 
+	transition: 0.333s;
+	-webkit-transition: 0.333s;
+}
+.pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
+.pure-menu-fixed{left:auto;}
+
+.l-box {
+    padding: 1em;
+}
+
+.header {
+    text-align: center;
+}
+
+    .header .pure-menu {
+        padding: 0.5em;
+    }
+
+        .header .pure-menu a{
+            color: #8EA7BB;
+        }
+
+        .header .pure-menu .pure-menu-selected a, .header .pure-menu a:hover{
+            color: #005EAC !important;
+        }
+
+        .header .pure-menu li{
+            border-radius: 3px;
+            border: 1px solid rgba(0, 94, 172, 0.07);
+        }
+
+        .header .pure-menu li a:hover,
+        .header .pure-menu li a:focus {
+            background: none;
+            color: #aaa;
+            border: 1px solid rgba(0, 94, 172, 1);
+        }
+
+        .header .pure-menu li a:active{
+            color: #000 !important;
+            border: 1px solid rgba(0, 0, 0, 1);
+        }
+
+body .primary-button {
+    background: #02a6eb;
+    color: #fff;
+}
+
+.splash {
+    height: 251px;
+    padding: 3em 0.5em;
+    border-radius: 13px;
+    background: #005EAC;
+    margin: 109px auto 77px;
+}
+    .splash .splash-head {
+        font-size: 300%;
+        margin: 0em 0;
+        line-height: 1.2em;
+    }
+    .splash .splash-subhead {
+        color: #999;
+        font-weight: 300;
+        line-height: 1.4em;
+    }
+    .splash .primary-button {
+        font-size: 150%;
+    }
+
+.splash-circle{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.accept-li{
+    border: none !important;
+}
+.accept-b{
+    margin: 0 0 0 29%;
+}
+.we-bitcoin{
+    width:577px;
+    opacity: 0.555;
+    cursor: pointer;
+    text-align: right;
+    border: none !important;
+}
+    .we-bitcoin:hover{
+        opacity: 1;
+    }
+    .bitcoin{
+        width: 45px;
+        border: none !important;
+        margin: -8px 0 0 10px;
+        position: absolute;
+     }
+        .bitcoin-icon{
+            height: 44px;
+            fill: #005EAC;
+        }
+
+
+.content{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+    .content .content-subhead {
+        color: #fff;
+        padding: 0.4em .8em 0.2em;
+        text-transform: uppercase;
+        margin: 8px 0 0 0px;
+        border-bottom: 1px solid #005EAC;
+        display: block;
+        width: 665px;
+    }
+
+    .content .content-ribbon {
+        margin: 3em 0;
+        border-radius: 13px;
+        background: rgba(0, 94, 172, 1);
+        border: 3px solid rgba(0, 94, 172, 1);
+    }
+
+.pira-home-cap{
+    border-right: 2px solid rgb(0, 94, 172);
+    border-top-right-radius: 13px;
+    border-top: 2px solid rgb(0, 94, 172);
+    background: #fff;
+    border-bottom-left-radius: 25px;
+    box-shadow: 1px -1px rgba(0, 39, 71, 0.1);
+}
+
+.pira-rib{
+    background: #005EAC;
+}
+
+.pira-logo{
+    margin: 35px 0 0 13px;
+}
+
+.node-home-capsule{
+    height: 240px;
+    background: #005EAC;
+    margin: auto;
+    display: block;
+    float: left;
+    width: 327px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+    .node-box{
+        height: 240px;
+        width: 707px;
+        background: #fff;
+        border-radius: 21px;
+        box-shadow: -4px 1px rgba(0, 39, 71, 0.1);
+    }
+    .node-home-img{
+        margin: 66px auto;
+    }
+
+.docpad-logo{
+    width:14%;
+}
+    .docpad-logo-white{
+        height: 25px;
+        width: 115px;
+        margin: 0 0 -5px 0;
+    }
+    .docpad-subhead{
+       padding: 0.4em .8em 0.6em !important;
+    }
+    #stageTwo_docpad-key-bottom{
+        fill:#fff;
+    }
+
+.ribbon {
+    background: #eee;
+    text-align: center;
+    padding: 2em;
+    color: #999;
+}
+    .ribbon h2 {
+        display: inline;
+        font-weight: normal;
+    }
+
+    .footer-ribbon{
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+
+.footer {
+    background: #005EAC;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 80%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
