@@ -112,7 +112,10 @@ a{
 #appBtnText, #appMblText{
     margin: 0 -18px 0 14px;
 }
-
+#main-menu{ 
+	transition: 0.333s;
+	-webkit-transition: 0.333s;
+}
 .pure-menu.pure-menu-open.pure-menu-fixed{border-bottom:0;}
 .pure-menu-fixed{left:auto;}
 
@@ -211,7 +214,7 @@ body .primary-button {
      }
         .bitcoin-icon{
             height: 44px;
-            fill: #F69219;
+            fill: #005EAC;
         }
 
 
